@@ -5,6 +5,6 @@ For our image based model (viz encoder) – we usually rely on a Convolutional N
 
 ![alt text](https://raw.githubusercontent.com/yunjey/pytorch-tutorial/master/tutorials/03-advanced/image_captioning/png/model.png)
 
-Here I'm using a pre-trained with weights VGG16 model as my CNN which will act as an input to my RNN(LSTM)
+Here I'm using a pre-trained [VGG16](https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels.h5) model with weights as my CNN which will act as an input to my RNN(LSTM)
 
 The Dataset which I used for this project is [Flickr8k](https://www.kaggle.com/srbhshinde/flickr8k-sau), [Flickr30k](http://shannon.cs.illinois.edu/DenotationGraph/) or [MS-COCO](http://cocodataset.org/#download) which is widey used dataset for image captioning can also be applied in this case. I'm limited by resources to train my model on huge datasets so I chose Flickr8k.
